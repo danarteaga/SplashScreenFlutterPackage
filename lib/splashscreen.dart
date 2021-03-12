@@ -230,7 +230,7 @@ class _SplashScreenState extends State<SplashScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 new Expanded(
-                  flex: 1,
+                  flex: 3,
                   child: new Container(
                       child: new Column(
                     mainAxisAlignment: MainAxisAlignment.center,
