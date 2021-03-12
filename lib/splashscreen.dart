@@ -227,13 +227,14 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
             ),
             new Column(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 new Expanded(
                   flex: 2,
                   child: new Container(
                       child: new Column(
                     mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       new CircleAvatar(
                         backgroundColor: Colors.transparent,
@@ -244,7 +245,7 @@ class _SplashScreenState extends State<SplashScreen> {
                         radius: widget.photoSize,
                       ),
                       new Padding(
-                        padding: const EdgeInsets.only(top: 0),
+                        padding: const EdgeInsets.only(top: 20.0),
                       ),
                       widget.title
                     ],
