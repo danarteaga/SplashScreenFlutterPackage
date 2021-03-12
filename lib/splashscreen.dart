@@ -244,7 +244,7 @@ class _SplashScreenState extends State<SplashScreen> {
                         radius: widget.photoSize,
                       ),
                       new Padding(
-                        padding: const EdgeInsets.only(top: 20.0),
+                        padding: const EdgeInsets.only(top: 0.0),
                       ),
                       widget.title
                     ],
@@ -262,7 +262,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                   widget.loaderColor),
                             ),
                       Padding(
-                        padding: const EdgeInsets.only(top: 20.0),
+                        padding: const EdgeInsets.only(top: 0.0),
                       ),
                       Padding(
                         padding: widget.loadingTextPadding,
