@@ -230,11 +230,10 @@ class _SplashScreenState extends State<SplashScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 new Expanded(
-                  flex: 2,
+                  flex: 1,
                   child: new Container(
                       child: new Column(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       new CircleAvatar(
                         backgroundColor: Colors.transparent,
