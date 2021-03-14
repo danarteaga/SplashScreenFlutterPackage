@@ -234,7 +234,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     child: Container(),
                 ),
                 Expanded(
-                  flex: 2,
+                  flex: 1,
                   child: new Container(
                       child: new Column(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -275,6 +275,10 @@ class _SplashScreenState extends State<SplashScreen> {
                     ],
                   ),
                 ),
+                new Expanded(
+                    flex: 1,
+                    child: Container(),
+                ),                
               ],
             ),
           ],
