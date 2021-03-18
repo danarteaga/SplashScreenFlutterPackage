@@ -257,7 +257,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 Expanded(
                   flex: 1,
                   child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     children: <Widget>[
                       !widget.useLoader
                           ? Container()
