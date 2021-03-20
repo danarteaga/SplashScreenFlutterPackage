@@ -242,10 +242,10 @@ class _SplashScreenState extends State<SplashScreen> {
                       new CircleAvatar(
                         backgroundColor: Colors.transparent,
                         child: Hero(
-                          tag: "splashscreenImage",
+                          tag: 'medontix.logo',
                           child: new Container(child: widget.image),
                         ),
-                        radius: widget.photoSize,
+                        height: widget.photoSize,
                       ),
                       new Padding(
                         padding: const EdgeInsets.only(top: 0.0),
