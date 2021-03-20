@@ -245,7 +245,7 @@ class _SplashScreenState extends State<SplashScreen> {
                           tag: 'company.logo',
                           child: new Container(child: widget.image),
                         ),
-                        height: widget.photoSize,
+                        radius: widget.photoSize,
                       ),
                       new Padding(
                         padding: const EdgeInsets.only(top: 0.0),
